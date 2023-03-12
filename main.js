@@ -10,7 +10,7 @@ form.addEventListener('submit', function(e){
 const valorA = parseFloat(document.getElementById('info-a').value);
 const valorB = parseFloat(document.getElementById('info-b').value);
     const MensagemSucesso = 'Sucesso';
-    const MensagemErro = 'Incorreto Valor B Menor';
+    const MensagemErro = 'Incorreto, Valor B Menor';
 
     formEValido = validaCampo(valorA, valorB)
     if (formEValido){
